@@ -1,0 +1,27 @@
+INFO: [HLS 200-10] Running 'E:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'Z2' on host 'desktop-spkhc6d' (Windows NT_amd64 version 6.2) on Mon Feb 24 15:31:33 +0800 2020
+INFO: [HLS 200-10] In directory 'C:/Users/Z2/Desktop/hls/ex3'
+INFO: [HLS 200-10] Opening project 'C:/Users/Z2/Desktop/hls/ex3/myrgb2gray'.
+INFO: [HLS 200-10] Opening solution 'C:/Users/Z2/Desktop/hls/ex3/myrgb2gray/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xq7z020cl400-1i'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../test/test_rgb2gray.cpp in debug mode
+   Generating csim.exe
+In file included from E:/Xilinx/Vivado/2018.1/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from E:/Xilinx/Vivado/2018.1/include/hls_fpo.h:172,
+                 from E:/Xilinx/Vivado/2018.1/include/hls_half.h:57,
+                 from E:/Xilinx/Vivado/2018.1/include/ap_int.h:74,
+                 from E:/Xilinx/Vivado/2018.1/include/ap_axi_sdata.h:86,
+                 from E:/Xilinx/Vivado/2018.1/include/hls/hls_axi_io.h:39,
+                 from E:/Xilinx/Vivado/2018.1/include/hls_video.h:48,
+                 from ../../../test/./../src/myrgb2gray.h:3,
+                 from ../../../test/test_rgb2gray.cpp:1:
+E:/Xilinx/Vivado/2018.1/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined [enabled by default]
+E:/Xilinx/Vivado/2018.1/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+../../../test/test_rgb2gray.cpp:4:5: warning: second argument of 'int main(int, int**)' should be 'char **' [-Wmain]
+Files OUT_IMG.bmp and GOLD_IMG.bmp differ
+no 
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
